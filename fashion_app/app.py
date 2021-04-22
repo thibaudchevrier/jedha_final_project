@@ -29,7 +29,7 @@ def index():
 
 def unique_filename(filename):
     _, ext = os.path.splitext(filename)
-    return ".".join([str(uuid.uuid4()), ext])
+    return str(uuid.uuid4()) + ext
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
