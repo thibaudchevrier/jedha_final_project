@@ -1,3 +1,6 @@
 .vscode
 desktop.ini
 *.pyc
+__pychache__
+*.csv
+fashion_app/mask_rcnn_matterport/deployement

@@ -1,2 +1,7 @@
 Flask==0.12
 Pillow
+tensorflow==2.4.1
+scikit-image
+IPython
+pandas
+opencv-python
